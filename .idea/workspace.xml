@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9740ecf0-ee5e-4ae1-8e17-d56cd43c24e6" name="Default Changelist" comment="" />
+    <list default="true" id="9740ecf0-ee5e-4ae1-8e17-d56cd43c24e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4__1_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/percolation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/percolation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PercolationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PercolationTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +20,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="44">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+              <folding>
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2001#2002#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#2757#2758#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/PercolationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+              <folding>
+                <element signature="method#shouldThrowErrorIfNLessThanOne#0;class#PercolationTest#0" />
+                <element signature="method#shouldOpenASquare#0;class#PercolationTest#0" />
+                <element signature="method#shouldOnlyBeFullIfOpen#0;class#PercolationTest#0" />
+                <element signature="method#topRowShouldBeFullWhenOpen#0;class#PercolationTest#0" />
+                <element signature="method#shouldBeFullIfConnectedToTopOfGrid#0;class#PercolationTest#0" />
+                <element signature="method#shouldPercolateIfTopConnectedToBottom#0;class#PercolationTest#0" />
+                <element signature="method#methodsShouldThrowErrorIfOutsideRange#0;class#PercolationTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,26 +66,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Percolation/main.java" />
         <option value="$PROJECT_DIR$/src/name.java" />
-        <option value="$PROJECT_DIR$/src/Percolation.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/PercolationTest.java" />
+        <option value="$PROJECT_DIR$/src/Percolation.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,10 +107,16 @@
               <item name="percolation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="percolation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="percolation" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -99,11 +127,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580061591448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580113452786" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -149,6 +178,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in percolation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="percolation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PercolationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="percolation" />
       <option name="PACKAGE_NAME" value="" />
@@ -158,14 +195,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PercolationTest.shouldPercolateIfTopConnectedToBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="percolation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PercolationTest" />
+      <option name="METHOD_NAME" value="shouldPercolateIfTopConnectedToBottom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Percolation" />
       <item itemvalue="JUnit.PercolationTest" />
+      <item itemvalue="JUnit.PercolationTest.shouldPercolateIfTopConnectedToBottom" />
+      <item itemvalue="JUnit.All in percolation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PercolationTest" />
+        <item itemvalue="JUnit.PercolationTest.shouldPercolateIfTopConnectedToBottom" />
+        <item itemvalue="JUnit.All in percolation" />
         <item itemvalue="Application.Percolation" />
       </list>
     </recent_temporary>
@@ -180,65 +231,131 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580060959845</updated>
-      <workItem from="1580060964051" duration="406000" />
+      <workItem from="1580060964051" duration="1516000" />
+      <workItem from="1580062530031" duration="1715000" />
+      <workItem from="1580064344338" duration="1756000" />
+      <workItem from="1580066165264" duration="713000" />
+      <workItem from="1580081439147" duration="1159000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PercolationTest_shouldPercolateIfTopConnectedToBottom - 2020.01.27 at 00h 40m 50s.xml">
+      <configuration name="PercolationTest.shouldPercolateIfTopConnectedToBottom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest_shouldPercolateIfTopConnectedToBottom - 2020.01.27 at 00h 41m 09s.xml">
+      <configuration name="PercolationTest.shouldPercolateIfTopConnectedToBottom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_percolation - 2020.01.27 at 00h 41m 20s.xml">
+      <configuration name="All in percolation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest_shouldPercolateIfTopConnectedToBottom - 2020.01.27 at 00h 42m 48s.xml">
+      <configuration name="PercolationTest.shouldPercolateIfTopConnectedToBottom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest_shouldPercolateIfTopConnectedToBottom - 2020.01.27 at 00h 42m 53s.xml">
+      <configuration name="PercolationTest.shouldPercolateIfTopConnectedToBottom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest - 2020.01.27 at 00h 43m 03s.xml">
+      <configuration name="PercolationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest - 2020.01.27 at 00h 44m 28s.xml">
+      <configuration name="PercolationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest - 2020.01.27 at 00h 45m 57s.xml">
+      <configuration name="PercolationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest - 2020.01.27 at 00h 46m 26s.xml">
+      <configuration name="PercolationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercolationTest - 2020.01.27 at 00h 46m 56s.xml">
+      <configuration name="PercolationTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406000" />
+    <option name="totallyTimeSpent" value="6859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17739628" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3299363" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Percolation/main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PercolationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Percolation/main.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Percolation.java">
+    <entry file="jar://$PROJECT_DIR$/algs4 (1).jar!/edu/princeton/cs/algs4/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="-8">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -246,6 +363,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="method#shouldThrowErrorIfNLessThanOne#0;class#PercolationTest#0" />
+            <element signature="method#shouldOpenASquare#0;class#PercolationTest#0" />
+            <element signature="method#shouldOnlyBeFullIfOpen#0;class#PercolationTest#0" />
+            <element signature="method#topRowShouldBeFullWhenOpen#0;class#PercolationTest#0" />
+            <element signature="method#shouldBeFullIfConnectedToTopOfGrid#0;class#PercolationTest#0" />
+            <element signature="method#shouldPercolateIfTopConnectedToBottom#0;class#PercolationTest#0" />
+            <element signature="method#methodsShouldThrowErrorIfOutsideRange#0;class#PercolationTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2001#2002#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#2757#2758#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,6 +464,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>algs4 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
