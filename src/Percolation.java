@@ -2,9 +2,9 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
 
-    private final int BOTTOM;
-    private int TOP;
-    private final int n;
+    private final int bottom;
+    private final int top;
+    private final int size;
     private boolean[][] openCells;
     private final WeightedQuickUnionUF uf;
     private int openCellCounter = 0;
@@ -13,10 +13,10 @@ public class Percolation {
     public Percolation(int n) {
         if (n <= 0) throw new IllegalArgumentException();
 
-        this.n = n;
+        size = n;
         openCells = new boolean[n][n];
-        TOP = (n * n);
-        BOTTOM = (n * n) + 1;
+        top = (n * n);
+        bottom = (n * n) + 1;
         uf = new WeightedQuickUnionUF((n * n) + 2);
         unionTopToTopRow();
         unionBottomToBottomRow();
@@ -49,7 +49,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return uf.find(TOP) == uf.find(BOTTOM);
+        return uf.find(top) == uf.find(bottom);
     }
 
     private void unionWithNeighbours(int row, int col) {
@@ -66,12 +66,12 @@ public class Percolation {
     }
 
     private boolean withinGrid(int row, int col) {
-        return row > 0 && row <= n && col > 0 && col <= n;
+        return row > 0 && row <= size && col > 0 && col <= size;
     }
 
     private boolean isConnectedToTopRow(int row, int col) {
         int rootIndex = uf.find(rowColumnToIndex(row, col));
-        return rootIndex == TOP;
+        return rootIndex == top;
     }
 
     private void setOpen(int row, int col) {
@@ -84,25 +84,25 @@ public class Percolation {
     }
 
     private void unionTopToTopRow() {
-        for (int i = 1; i <= n; i++) {
-            uf.union(TOP, rowColumnToIndex(1, i));
+        for (int i = 1; i <= size; i++) {
+            uf.union(top, rowColumnToIndex(1, i));
         }
     }
 
     private void unionBottomToBottomRow() {
-        for (int i = 1; i <= n; i++) {
-            uf.union(BOTTOM, rowColumnToIndex(n, i));
+        for (int i = 1; i <= size; i++) {
+            uf.union(bottom, rowColumnToIndex(size, i));
         }
     }
 
     private int rowColumnToIndex(int row, int col) {
-        return (row - 1) * n + (col - 1);
+        return (row - 1) * size + (col - 1);
     }
 
     private void validateInput(int row, int col) {
         if (row < 1) throw new IllegalArgumentException();
         if (col < 1) throw new IllegalArgumentException();
-        if (row > n) throw new IllegalArgumentException();
-        if (col > n) throw new IllegalArgumentException();
+        if (row > size) throw new IllegalArgumentException();
+        if (col > size) throw new IllegalArgumentException();
     }
 }
